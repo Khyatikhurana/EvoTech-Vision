@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html.body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width:100%;
+}
+
+#landingP{
+    position: relative;
+    color: white;;
+    width:100%;
+    height:100vh;
+    background-color: black;
+}
+
+#nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+}
+#nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding:20px 40px;
+    color:white;
+}
+#heading{
+    margin-top:90px;
+}
+#heading h1{
+    font-family: "General Sans";
+    opacity: .6;
+    margin-left:30px;
+    line-height: 1;
+    font-size:9vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#heading #Sech1{
+    margin-left: 230px;
+}
+
+.blocktext{
+    width:fit-content;
+
+}
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#Sheadings{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top:100px;
+    padding-right:20px;
+
+}
+
+#Sheadings h5{
+    margin-top:0.9vw;
+    font-size: 1.2vw;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+#landingFooter{
+    
+    padding:0 2.5vw;
+    width:100%;
+    position:absolute;
+    bottom:3%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#landingFooter a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#landingFooter .circle{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    background-color: #888;
+}
+#landingFooter #iconset{
+    display:flex;
+    gap:5px;
+
+}
+#second{
+    color:white;
+    padding-right:10vw;
+    padding-top:200px ;
+    background-color: black;
+    width:100%;
+    height:100vh;
+}
+
+.elem{
+    width:100%;
+    border-top:1px solid #888;
+    padding:4vw 3vw;
+}
+.elem h1{
+    text-transform: uppercase;
+    font-size: 8vw;
+    opacity:0.7;
+
+}
