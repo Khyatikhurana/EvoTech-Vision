@@ -9,12 +9,29 @@ html,body{
     width: 100%;
     height: 100%;
 }
+#minicircle{
+    transition: all cubic-bezier(0.19,1,0.22,1) 1s;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 99999;
+    position: absolute;
+    
+}
 
 #main{
     width:100%;
     background-color: black;
 }
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
 
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
 #landingP{
     position: relative;
     color: white;;
@@ -53,6 +70,9 @@ html,body{
 }
 
 .blocktext{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
     width:fit-content;
 
 }
@@ -139,8 +159,7 @@ html,body{
 
 .elem img{
     /* image above text */
-    /* opacity:0; */
-    display: none;
+    opacity: 0; 
     height:140%;
     z-index:999; 
     position: absolute;
@@ -202,10 +221,23 @@ html,body{
     display:flex;
     align-items: center;
     justify-content:space-between;
-    padding:20px 30px;
+    padding:40px 30px;
 }
 
 #footerleft{
+    color:white;
     display:flex;
     gap:20px;
+}
+
+#footerright{
+    display: flex;
+    gap: 30px;
+}
+#footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
 }

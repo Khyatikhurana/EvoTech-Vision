@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="loco.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div id="minicircle"></div>
 <div id="main">
     <div id="landingP">
         <div id="nav">
@@ -17,14 +19,25 @@
             <h4>MENU</h4>
         </div>
         <div id="heading">
-            <h1>EvoTech</h1>
+            <div class="bounding">
+                <h1 class="boundingelem">EvoTech</h1>
+            </div>
             <div class="blocktext">
-                <h1 id="Sech1">VISION</h1>
-                <h5>Innovate beyond limits</h5>
+                <div class="bounding">
+                    <h1 class="boundingelem" id="Sech1">VISION</h1>
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingelem">Innovate beyond limits</h5>
+                </div>
             </div>
             <div id="Sheadings">
-                <h5>Elevate Your Skills in '23</h5>
-                <h5>Your Path to Proficiency</h5>
+                <div class="bounding">
+                    <h5 class="boundingelem">Elevate Your Skills in '23</h5>
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingelem">Your Path to Proficiency</h5>
+                </div>
+                
             </div>
             <div id="landingFooter">
                 <a href="">Unleashing App and Web Potential</a>
@@ -80,7 +93,7 @@
 
 </div>
 
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+<script src="script.js"></script>
 </body>
